@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.movie-list-pics {
+    object-fit: contain;
+    width: 300px;
+    height: 500px;
+}
+
+.lg-movie-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    top: 5%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: height 700ms ease-in-out;
+}
+
+
+.movie-details {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 0%;
+}
+
+.movie-details.visible {
+    animation: fade-in 700ms forwards;
+}
+
+.movie-details.hide-it {
+    animation: fade-out 500ms forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        height: 0%;
+    }
+
+    100% {
+        height: 75%;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        height: 75%;
+    }
+
+    100% {
+        height: 0%;
+    }
+}
+
+.mobileScrollBtn {
+    top: 90%;
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+    .group:hover .lg-movie-info {
+        height: 90%;
+
+    }
+}

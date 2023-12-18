@@ -1,0 +1,83 @@
+[
+    {
+        "adult": false,
+        "backdrop_path": "/9PqD3wSIjntyJDBzMNuxuKHwpUD.jpg",
+        "genre_ids": [
+            16,
+            35,
+            10751
+        ],
+        "id": 1075794,
+        "original_language": "en",
+        "original_title": "Leo",
+        "overview": "Jaded 74-year-old lizard Leo has been stuck in the same Florida classroom for decades with his terrarium-mate turtle. When he learns he only has one year left to live, he plans to escape to experience life on the outside but instead gets caught up in the problems of his anxious students — including an impossibly mean substitute teacher.",
+        "popularity": 1893.365,
+        "poster_path": "/pD6sL4vntUOXHmuvJPPZAgvyfd9.jpg",
+        "release_date": "2023-11-17",
+        "title": "Leo",
+        "video": false,
+        "vote_average": 7.797,
+        "vote_count": 283
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/xgGGinKRL8xeRkaAR9RMbtyk60y.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            10402,
+            14,
+            35
+        ],
+        "id": 901362,
+        "original_language": "en",
+        "original_title": "Trolls Band Together",
+        "overview": "When Branch's brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "popularity": 1256.001,
+        "poster_path": "/qV4fdXXUm5xNlEJ2jw7af3XxuQB.jpg",
+        "release_date": "2023-10-12",
+        "title": "Trolls Band Together",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 218
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+        "genre_ids": [
+            18,
+            36
+        ],
+        "id": 872585,
+        "original_language": "en",
+        "original_title": "Oppenheimer",
+        "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+        "popularity": 1230.269,
+        "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+        "release_date": "2023-07-19",
+        "title": "Oppenheimer",
+        "video": false,
+        "vote_average": 8.2,
+        "vote_count": 5042
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/kjQBrc00fB2RjHZB3PGR4w9ibpz.jpg",
+        "genre_ids": [
+            878,
+            28,
+            53
+        ],
+        "id": 670292,
+        "original_language": "en",
+        "original_title": "The Creator",
+        "overview": "Amid a future war between the human race and the forces of artificial intelligence, a hardened ex-special forces agent grieving the disappearance of his wife, is recruited to hunt down and kill the Creator, the elusive architect of advanced AI who has developed a mysterious weapon with the power to end the war—and mankind itself.",
+        "popularity": 886.265,
+        "poster_path": "/vBZ0qvaRxqEhZwl6LWmruJqWE8Z.jpg",
+        "release_date": "2023-09-27",
+        "title": "The Creator",
+        "video": false,
+        "vote_average": 7.14,
+        "vote_count": 1217
+    }
+]
