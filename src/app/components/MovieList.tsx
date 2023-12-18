@@ -252,7 +252,9 @@ const MovieList = () => {
                                 />
                                 <div className="lg-movie-info text-base px-3 ">
                                     <p className="pt-2">{movie.overview}</p>
-                                    <p className="pt-2">Release Date - {new Date(movie.release_date).toLocaleDateString('en-GB')}</p>
+                                    {!isTv &&
+                                        <p className="pt-2">Release Date - {new Date(movie.release_date).toLocaleDateString('en-GB')}</p>
+                                    }
                                     <p className="pt-2">Rating - {Math.round(movie.vote_average)}/10</p>
                                     <div className="w-full flex justify-center">
                                         <button className="w-20 border-2 bg-sky-900 p-2  lg:hover:bg-sky-700 my-6 mx-3">Play</button>
